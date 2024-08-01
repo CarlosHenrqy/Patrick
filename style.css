@@ -1,0 +1,38 @@
+body {
+    background-image: url('Imagens/fundo_carlos.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.clickable-area {
+    text-align: center;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.clickable-area img {
+    margin: 10px;
+}
+
+.social-icons {
+    display: flex;
+    gap: 10px; /* Espaçamento entre os ícones */
+}
+
+.clickable-area p {
+    font-size: 90px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 0;
+}
